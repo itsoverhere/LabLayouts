@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.mobapde.lablayouts.ProfileActivity"
+    tools:showIn="@layout/activity_profile"
+    android:background="#be3137">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_margin="20dp"
+            android:text="The Sinulog-Santo Niño Festival is an annual cultural and religious festival held on the third Sunday of January in Cebu City, and is the center of the Santo Niño Catholic celebrations in the Philippines." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white"/>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHEN"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:fontFamily="san-serif"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="January yearly"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:fontFamily="san-serif-thin"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHERE"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:fontFamily="san-serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Cebu City"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:fontFamily="san-serif-thin"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TYPE"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:fontFamily="san-serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Religious festival"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:fontFamily="san-serif-thin"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fcf6f6"
+            android:text="Attend"
+            android:id="@+id/button_attend"
+            />
+        
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
